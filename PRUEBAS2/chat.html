@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="style_chat.css">
+
+
+</head>
+
+<body>
+    <div id="center-text">
+        <h2>ChatBox UI</h2>
+        <p>Message send and scroll to bottom enabled </p>
+    </div>
+
+    <!-- El chat bot comienza acá -->
+    <div id="body">
+        <div id="chat-circle" class="btn btn-raised">
+            <div id="chat-overlay"></div>
+        </div>
+
+        <div class="chat-box">
+            <div class="chat-box-header">
+                <p>COOL<span>STACKS</span></p>
+                <button type="button" class="chat-box-toggle" id="chat-box-toggle"><i class="material-icons"></i></button>
+            </div>
+            <div class="chat-box-body">
+                <div class="chat-box-overlay">
+                </div>
+                <div class="chat-logs">
+
+                </div>
+                <!--chat-log -->
+            </div>
+            <div class="chat-input">
+                <form>
+                    <input type="text" id="chat-input" placeholder="Send a message..." />
+                    <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- El chat bot termina acá -->
+
+    <script src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
+
+    <script src="chat_js.js"></script>
+
+
+</body>
+
+</html>
